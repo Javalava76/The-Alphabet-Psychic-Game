@@ -1,0 +1,22 @@
+h1, h2, h3 {
+	font-family: "Permanent Marker";
+}
+
+h1 {
+	font-size: 65px;
+}
+
+h2 {
+	font-size: 45px;
+	color: grey;
+}
+
+h3 {
+	font-size: 30px;
+	color: rgb(356, 158, 805);
+}
+
+img {
+	height: 20%;
+	width: 100%;
+}
