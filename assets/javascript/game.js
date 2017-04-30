@@ -68,7 +68,7 @@ var computerChoice = alphabetArray[Math.floor(Math.random() * alphabetArray.leng
   
 
     // Displaying progress to HTML
-	var html = "<h1>The Psychic Game</h1><br><br>" + "<h2>Guess what letter I'm thinking of...</h2><br><br>" + "<h3>Wins: " + wins + "<br><br></h3>" + "<h3>Losses: " + losses + "</h3>" + "<br><br><h3>Guesses Left: " + guessesLeft + "<br><br></h3>" + "<h3>Your guesses so far: " + guessesSoFar.join(', ') + "</h3>";
+	var html = "<h1>The Psychic Game</h1><br><br>" + "<h2>Guess what letter I'm thinking of...</h2><br><br>" + "<h3>Wins: " + wins + "</h3><br><br>" + "<h3>Losses: " + losses + "</h3><br><br>" + "<h3>Guesses Left: " + guessesLeft + "</h3><br><br>" + "<h3>Your guesses so far: " + guessesSoFar.join(', ') + "</h3>";
 	// place html into the game ID
 	document.querySelector("#game").innerHTML = html;
 }
